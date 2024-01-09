@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color:aquamarine;
+}
+input{           
+    margin: 12px;
+    padding: 6px 12px;
+    background-color: black;
+    color: brown;
+     border-radius: 15px;
+     font-size: large;
+}
+button{
+    margin: 12px auto;
+    font-size: medium;
+    padding: 6px 12px;
+    border-radius: 15px;
+    background-color: black;
+    color: aqua;
+    border: 3px solid brown;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+i{
+    color: rgb(10, 6, 91);
+    padding: 5px 5px;
+}
+.card-img,img{
+    margin: 5px auto;
+    width: 200px;
+    border-radius: 50%;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction:column;
+    justify-content:center ;
+    align-items: center;
+}
+h1{
+    padding: 10px 10px;
+    color: aquamarine;
+}
+.main{
+    width: 60vw;
+    min-width: 330px;
+    text-align: center;
+    padding: 35px  15px;
+}
+.card{
+    width: 25rem;
+    background: rgb(105, 91, 91);
+    box-shadow: 1px 2px 3px #454545;
+    padding: 15px;
+    margin: 25px;
+}
+.car-title{
+    font-size: x-large;
+font-weight: bold;
+}
+.card-subHeading{
+    font-size: medium;
+    color: rgb(218, 241, 15);
+}
+#profileInfo .card{
+border: 1px solid crimson;
+}
+#repoInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
